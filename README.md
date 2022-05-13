@@ -1,5 +1,5 @@
 # Data_visualization
-![QQ截图20220513112628](https://user-images.githubusercontent.com/103107612/168205836-76ef546b-1545-4ba5-a234-6883ac83fd10.png)  
+![弹幕频率可视化柱状图](https://user-images.githubusercontent.com/103107612/168205836-76ef546b-1545-4ba5-a234-6883ac83fd10.png)  
 “数据可视化”项目  
 目的是掌握并熟练使用NumPy和Matplotlib。  
 包含四个部分：  
