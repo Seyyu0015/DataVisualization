@@ -18,8 +18,8 @@ df_iris = pd.read_csv("csv/iris.csv", names=COLUMN_NAMES, header=0)
 iris = np.array(df_iris)
 
 # 绘图
-fig = plt.figure('Iris Data', figsize=(15, 15))
-plt.suptitle("Anderson's Iris Data Set\n(Bule：Setosa | Red：Versicolor | Green：Virginica")
+fig = plt.figure('Iris Data', figsize=(25, 25))
+plt.suptitle("Anderson's Iris Data Set\n(Bule:Setosa | Red:Versicolor | Green:Virginica")
 for i in range(4):
     for j in range(4):
         plt.subplot(4, 4, 4 * i + (j + 1))

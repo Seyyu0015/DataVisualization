@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+
 """
 波士顿房价数据可视化
 
@@ -28,7 +29,7 @@ titles = ["CRIM", "ZN", "INDUS", "CHAS", "NOX", "RM", "AGE",
           "DIS", "RAD", "TAX", "PTRATIO", "B", "LSTAT"]
 
 # 设置画布大小
-plt.figure(figsize=(12, 12))
+plt.figure(figsize=(26, 26))
 
 # 循环创建散点图 划分画布为4×4的子图
 for i in range(13):
@@ -41,5 +42,5 @@ for i in range(13):
 plt.tight_layout()
 
 # 设置总标题 显示画布
-plt.suptitle("各个属性与房价的关系", x=0.5, y=1.02, fontsize=20)
+plt.suptitle("各个属性与房价的关系", x=0.5, y=1.02, fontsize=20, weight='extra bold')
 plt.show()

@@ -1,13 +1,20 @@
 import re
 import matplotlib.pyplot as plt
 from pylab import mpl
+
+"""
+哔哩哔哩直播（Bililive）指定直播间单日弹幕单字出现频率柱状图
+绘图脚本
+
+"""
+
 global file_time
 
 
 def read_file():
     global file_time
     file_time = input('请输入需要处理的存档文件的日期\n 示例：2022-05-13 \n 输入：')
-    with open('csv/'+file_time+'_danmu.txt', 'r') as f:
+    with open('csv/' + file_time + '_danmu.txt', 'r') as f:
         # 空字典用来存储文本中的单字
         word = {}
 
@@ -52,5 +59,6 @@ def show_rank(rank_list):
 def rank():
     show_rank(read_file())
     print('图已绘制')
+
 
 rank()

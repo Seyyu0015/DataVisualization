@@ -1,9 +1,12 @@
 from bilibili_api import live, sync, user
-# 获取时间并格式化
 import time
-time = time.strftime("%Y-%m-%d_", time.localtime())
 
-# 创建直播间对象
+"""
+哔哩哔哩直播（Bililive）指定直播间单日弹幕单字出现频率柱状图
+获取弹幕脚本
+
+"""
+time = time.strftime("%Y-%m-%d_", time.localtime())
 room = live.LiveDanmaku(int(input('直播间id：')))
 
 
