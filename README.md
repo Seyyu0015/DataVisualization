@@ -1,4 +1,4 @@
-# Data_visualization
+# 数据可视化实验
 ![图](https://user-images.githubusercontent.com/103107612/168205836-76ef546b-1545-4ba5-a234-6883ac83fd10.png)  
 ## 简介
 * 这是一个“数据可视化”项目  
